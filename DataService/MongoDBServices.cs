@@ -36,16 +36,16 @@ namespace DataService
         private IMongoCollection<T> GetCollection<T>()
         {
             string collectionName = string.Empty;
-            DisplayNameAttribute? displayNameAttribute = typeof(T).GetCustomAttribute<DisplayNameAttribute>();
-            if (displayNameAttribute != null)
-                collectionName = displayNameAttribute.DisplayName;
-            else
-                collectionName = StringExtensions.ConvertToSnakeCase(typeof(T).Name);
-            return GetMongoDbInstance().GetCollection<T>(collectionName);
+            //DisplayNameAttribute? displayNameAttribute = typeof(T).GetCustomAttribute<DisplayNameAttribute>();
+            //if (displayNameAttribute != null)
+            //    collectionName = displayNameAttribute.DisplayName;
+            //else
+            //    collectionName = StringExtensions.ConvertToSnakeCase(typeof(T).Name);
+            return GetMongoDbInstance().GetCollection<T>("messenger");
         }
         public async Task CreateDocument<T>(T document)
         {
-            await GetCollection<T>().InsertOneAsync(document);
+            GetCollection<T>().InsertOne(document);
         }
         public async Task DeleteDocument<T>(FilterDefinition<T> filter)
         {

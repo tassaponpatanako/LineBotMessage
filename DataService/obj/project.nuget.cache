@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PhjsEscWu9n1QypZV3fpkYBf+2MZIG2AibeXuzADEkQ1QOHDdaRwZdnOdNdGG/gXxsodcjpabwcHw2yxlt8XMQ==",
+  "dgSpecHash": "3hXxA0+mQqgwb9YPkuPvg3Pd8iigfG2uw/0WDIzwWkSqlHLBoCynhsn7So5kmzUsl2zZ/F+HKv1b1ikjKKhceA==",
   "success": true,
-  "projectFilePath": "C:\\Work\\LineMessage\\DataService\\DataServices.csproj",
+  "projectFilePath": "C:\\Work\\LineBotMessage\\DataService\\DataServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oatpa\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\oatpa\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

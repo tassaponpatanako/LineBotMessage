@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\LineMessage\\CommonService\\CommonServices.csproj": {}
+    "C:\\Work\\LineBotMessage\\CommonService\\CommonServices.csproj": {}
   },
   "projects": {
-    "C:\\Work\\LineMessage\\CommonService\\CommonServices.csproj": {
+    "C:\\Work\\LineBotMessage\\CommonService\\CommonServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\LineMessage\\CommonService\\CommonServices.csproj",
+        "projectUniqueName": "C:\\Work\\LineBotMessage\\CommonService\\CommonServices.csproj",
         "projectName": "CommonServices",
-        "projectPath": "C:\\Work\\LineMessage\\CommonService\\CommonServices.csproj",
+        "projectPath": "C:\\Work\\LineBotMessage\\CommonService\\CommonServices.csproj",
         "packagesPath": "C:\\Users\\oatpa\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\LineMessage\\CommonService\\obj\\",
+        "outputPath": "C:\\Work\\LineBotMessage\\CommonService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oatpa\\AppData\\Roaming\\NuGet\\NuGet.Config",

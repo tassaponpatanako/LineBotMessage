@@ -1095,11 +1095,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work\\LineMessage\\DataService\\DataServices.csproj",
+      "projectUniqueName": "C:\\Work\\LineBotMessage\\DataService\\DataServices.csproj",
       "projectName": "DataServices",
-      "projectPath": "C:\\Work\\LineMessage\\DataService\\DataServices.csproj",
+      "projectPath": "C:\\Work\\LineBotMessage\\DataService\\DataServices.csproj",
       "packagesPath": "C:\\Users\\oatpa\\.nuget\\packages\\",
-      "outputPath": "C:\\Work\\LineMessage\\DataService\\obj\\",
+      "outputPath": "C:\\Work\\LineBotMessage\\DataService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\oatpa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1116,8 +1116,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Work\\LineMessage\\CommonService\\CommonServices.csproj": {
-              "projectPath": "C:\\Work\\LineMessage\\CommonService\\CommonServices.csproj"
+            "C:\\Work\\LineBotMessage\\CommonService\\CommonServices.csproj": {
+              "projectPath": "C:\\Work\\LineBotMessage\\CommonService\\CommonServices.csproj"
             }
           }
         }
