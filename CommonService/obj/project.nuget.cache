@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ww7FAS9AKe35RVhvlG5dcZBiTHLQkrFOEzMnjt8GZdu5UbbeyZj3xR97zmGkl2XRuCzXXo3jIWXwwXF8TjzN5g==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\LineMessage\\CommonService\\CommonServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oatpa\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
+    "C:\\Users\\oatpa\\.nuget\\packages\\mongodb.bson\\2.19.1\\mongodb.bson.2.19.1.nupkg.sha512",
+    "C:\\Users\\oatpa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
