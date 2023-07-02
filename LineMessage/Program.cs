@@ -1,10 +1,15 @@
-using DataService;
-using DataServices;
+using AutoMapper;
+using DataServices.Models;
+using DataServices.Repository;
+using LineMessage;
+using LineMessage.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddSingleton<IMongoDBServices, MongoDBServices>();
+builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("MongoDBSettings"));
+builder.Services.AddSingleton<MongoDBServices>();
+builder.Services.AddAutoMapper(typeof(MapperConfigs));
 builder.Services.AddControllers()
     .AddJsonOptions(
         options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
@@ -12,7 +17,6 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -21,7 +25,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.Use((context, next) =>
+{
+    context.Request.EnableBuffering();
+    return next();
+});
 
+app.UseLogMiddleware();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

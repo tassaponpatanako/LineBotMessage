@@ -50,3 +50,6 @@ C:\Work\LineBotMessage\LineMessage\obj\Debug\net7.0\refint\LineMessage.dll
 C:\Work\LineBotMessage\LineMessage\obj\Debug\net7.0\LineMessage.pdb
 C:\Work\LineBotMessage\LineMessage\obj\Debug\net7.0\LineMessage.genruntimeconfig.cache
 C:\Work\LineBotMessage\LineMessage\obj\Debug\net7.0\ref\LineMessage.dll
+C:\Work\LineBotMessage\LineMessage\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Work\LineBotMessage\LineMessage\bin\Debug\net7.0\AutoMapper.dll
+C:\Work\LineBotMessage\LineMessage\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
